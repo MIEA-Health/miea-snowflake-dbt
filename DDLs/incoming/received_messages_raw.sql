@@ -1,0 +1,11 @@
+CREATE TABLE TEST.PATIENT_MESSAGES.RECEIVED_MESSAGES_RAW (
+id VARCHAR(100) NOT NULL,
+whatsapp_id VARCHAR(100) NOT NULL,
+patient_name VARCHAR(100),
+display_phone_number VARCHAR(100) NOT NULL,
+phone_number_id VARCHAR(100),
+from_id VARCHAR(100),
+timestamp VARCHAR(100),
+text VARCHAR(500),
+type VARCHAR(50)
+)
