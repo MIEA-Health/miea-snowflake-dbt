@@ -1,0 +1,6 @@
+CREATE TABLE TEST.PATIENT_MESSAGES.PATIENT_SESSION (
+patient_name VARCHAR(100),
+patient_phone VARCHAR(100) NOT NULL,
+session_flag BOOLEAN,
+last_updated_ts TIMESTAMP
+)
